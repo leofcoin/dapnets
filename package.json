@@ -1,0 +1,31 @@
+{
+  "name": "@leofcoin/dapnets",
+  "version": "1.0.0",
+  "main": "dapnets.js",
+  "module": "src/dapnets.js",
+  "scripts": {
+    "c": "rollup -c",
+    "w": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Glenn Vandeuren <vandeurenglenn@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^1.15.6",
+    "rollup-plugin-commonjs": "^10.0.0"
+  },
+  "dependencies": {
+    "bs58": "^4.0.1",
+    "normalize-newline": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leofcoin/dapnets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leofcoin/dapnets/issues"
+  },
+  "homepage": "https://github.com/leofcoin/dapnets#readme",
+  "description": ""
+}
